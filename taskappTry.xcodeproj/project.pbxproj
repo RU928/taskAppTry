@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180B3E26DF7E0BF87C4CBBE5 /* Pods_taskappTryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A454FDA9CE03DDE990D34699 /* Pods_taskappTryUITests.framework */; };
 		2A0A15E01EB5BE07008C0480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A15DF1EB5BE07008C0480 /* AppDelegate.swift */; };
 		2A0A15E21EB5BE07008C0480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A15E11EB5BE07008C0480 /* ViewController.swift */; };
 		2A0A15E51EB5BE07008C0480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A15E31EB5BE07008C0480 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		2A0A15EA1EB5BE07008C0480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A15E81EB5BE07008C0480 /* LaunchScreen.storyboard */; };
 		2A0A15F51EB5BE07008C0480 /* taskappTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A15F41EB5BE07008C0480 /* taskappTryTests.swift */; };
 		2A0A16001EB5BE07008C0480 /* taskappTryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A15FF1EB5BE07008C0480 /* taskappTryUITests.swift */; };
+		2A0A160F1EB5BE17008C0480 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A160E1EB5BE17008C0480 /* SpriteKit.framework */; };
+		2A0A16111EB5BED8008C0480 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A16101EB5BED8008C0480 /* GameScene.swift */; };
+		2AD07B571EE29C9400F7C7AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD07B561EE29C9400F7C7AD /* ChatViewController.swift */; };
+		2AD07B591EE29CAC00F7C7AD /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD07B581EE29CAC00F7C7AD /* ChatData.swift */; };
+		525B338D83E1FE205A64DFB1 /* Pods_taskappTry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1DD821DB692A980AD0C48F /* Pods_taskappTry.framework */; };
+		9EDD11415BDF75D7AA702AB4 /* Pods_taskappTryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0DE2C82C94CA7BDEAA622C /* Pods_taskappTryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F00F6A1FC1A1C75A1948A7 /* Pods-taskappTryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTryUITests/Pods-taskappTryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B1DD821DB692A980AD0C48F /* Pods_taskappTry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskappTry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0A15DC1EB5BE07008C0480 /* taskappTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskappTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0A15DF1EB5BE07008C0480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0A15E11EB5BE07008C0480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		2A0A15FB1EB5BE07008C0480 /* taskappTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskappTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0A15FF1EB5BE07008C0480 /* taskappTryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskappTryUITests.swift; sourceTree = "<group>"; };
 		2A0A16011EB5BE07008C0480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0A160E1EB5BE17008C0480 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		2A0A16101EB5BED8008C0480 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2AD07B561EE29C9400F7C7AD /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2AD07B581EE29CAC00F7C7AD /* ChatData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
+		4E41B8FD10D39C4BDDFCD405 /* Pods-taskappTryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTryUITests/Pods-taskappTryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A49C658081067F2538B88D5 /* Pods-taskappTryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTryTests/Pods-taskappTryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A454FDA9CE03DDE990D34699 /* Pods_taskappTryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskappTryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0DE2C82C94CA7BDEAA622C /* Pods_taskappTryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskappTryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E43056C00D46F8C287E2CD /* Pods-taskappTry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTry/Pods-taskappTry.debug.xcconfig"; sourceTree = "<group>"; };
+		D22F38716F7A851DDB534AB4 /* Pods-taskappTryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTryTests/Pods-taskappTryTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35D9F3CA0523A37BB98BA0A /* Pods-taskappTry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskappTry.release.xcconfig"; path = "Pods/Target Support Files/Pods-taskappTry/Pods-taskappTry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0A160F1EB5BE17008C0480 /* SpriteKit.framework in Frameworks */,
+				525B338D83E1FE205A64DFB1 /* Pods_taskappTry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDD11415BDF75D7AA702AB4 /* Pods_taskappTryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180B3E26DF7E0BF87C4CBBE5 /* Pods_taskappTryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,8 @@
 				2A0A15F31EB5BE07008C0480 /* taskappTryTests */,
 				2A0A15FE1EB5BE07008C0480 /* taskappTryUITests */,
 				2A0A15DD1EB5BE07008C0480 /* Products */,
+				2A0A160D1EB5BE17008C0480 /* Frameworks */,
+				45FF3AC080F159290E9AA8B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				2A0A15DF1EB5BE07008C0480 /* AppDelegate.swift */,
+				2AD07B561EE29C9400F7C7AD /* ChatViewController.swift */,
+				2AD07B581EE29CAC00F7C7AD /* ChatData.swift */,
 				2A0A15E11EB5BE07008C0480 /* ViewController.swift */,
 				2A0A15E31EB5BE07008C0480 /* Main.storyboard */,
+				2A0A16101EB5BED8008C0480 /* GameScene.swift */,
 				2A0A15E61EB5BE07008C0480 /* Assets.xcassets */,
 				2A0A15E81EB5BE07008C0480 /* LaunchScreen.storyboard */,
 				2A0A15EB1EB5BE07008C0480 /* Info.plist */,
@@ -125,6 +154,30 @@
 			path = taskappTryUITests;
 			sourceTree = "<group>";
 		};
+		2A0A160D1EB5BE17008C0480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A160E1EB5BE17008C0480 /* SpriteKit.framework */,
+				0B1DD821DB692A980AD0C48F /* Pods_taskappTry.framework */,
+				BE0DE2C82C94CA7BDEAA622C /* Pods_taskappTryTests.framework */,
+				A454FDA9CE03DDE990D34699 /* Pods_taskappTryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FF3AC080F159290E9AA8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E43056C00D46F8C287E2CD /* Pods-taskappTry.debug.xcconfig */,
+				D35D9F3CA0523A37BB98BA0A /* Pods-taskappTry.release.xcconfig */,
+				6A49C658081067F2538B88D5 /* Pods-taskappTryTests.debug.xcconfig */,
+				D22F38716F7A851DDB534AB4 /* Pods-taskappTryTests.release.xcconfig */,
+				01F00F6A1FC1A1C75A1948A7 /* Pods-taskappTryUITests.debug.xcconfig */,
+				4E41B8FD10D39C4BDDFCD405 /* Pods-taskappTryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0A16041EB5BE07008C0480 /* Build configuration list for PBXNativeTarget "taskappTry" */;
 			buildPhases = (
+				D42FA0905267E3EAC21662C4 /* [CP] Check Pods Manifest.lock */,
 				2A0A15D81EB5BE07008C0480 /* Sources */,
 				2A0A15D91EB5BE07008C0480 /* Frameworks */,
 				2A0A15DA1EB5BE07008C0480 /* Resources */,
+				F31BF6E26DD41ABF131D74D6 /* [CP] Embed Pods Frameworks */,
+				09F0BDC1CF1319EA619430E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0A16071EB5BE07008C0480 /* Build configuration list for PBXNativeTarget "taskappTryTests" */;
 			buildPhases = (
+				95EE24A3D92072A6C9D65E72 /* [CP] Check Pods Manifest.lock */,
 				2A0A15EC1EB5BE07008C0480 /* Sources */,
 				2A0A15ED1EB5BE07008C0480 /* Frameworks */,
 				2A0A15EE1EB5BE07008C0480 /* Resources */,
+				B083774C5B6AF64C4A346D12 /* [CP] Embed Pods Frameworks */,
+				97620F33A9DF6569375D7F5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0A160A1EB5BE07008C0480 /* Build configuration list for PBXNativeTarget "taskappTryUITests" */;
 			buildPhases = (
+				21A529E46958DC46908F2497 /* [CP] Check Pods Manifest.lock */,
 				2A0A15F71EB5BE07008C0480 /* Sources */,
 				2A0A15F81EB5BE07008C0480 /* Frameworks */,
 				2A0A15F91EB5BE07008C0480 /* Resources */,
+				F2C2929664851EE89970DC5B /* [CP] Embed Pods Frameworks */,
+				A3612280ED8FBE01DE7829BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +319,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09F0BDC1CF1319EA619430E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTry/Pods-taskappTry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21A529E46958DC46908F2497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95EE24A3D92072A6C9D65E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97620F33A9DF6569375D7F5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTryTests/Pods-taskappTryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3612280ED8FBE01DE7829BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTryUITests/Pods-taskappTryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B083774C5B6AF64C4A346D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTryTests/Pods-taskappTryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42FA0905267E3EAC21662C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C2929664851EE89970DC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTryUITests/Pods-taskappTryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31BF6E26DD41ABF131D74D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taskappTry/Pods-taskappTry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A0A15D81EB5BE07008C0480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0A16111EB5BED8008C0480 /* GameScene.swift in Sources */,
 				2A0A15E21EB5BE07008C0480 /* ViewController.swift in Sources */,
+				2AD07B571EE29C9400F7C7AD /* ChatViewController.swift in Sources */,
+				2AD07B591EE29CAC00F7C7AD /* ChatData.swift in Sources */,
 				2A0A15E01EB5BE07008C0480 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +616,7 @@
 		};
 		2A0A16051EB5BE07008C0480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E43056C00D46F8C287E2CD /* Pods-taskappTry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GR6B8V7TH6;
@@ -426,6 +630,7 @@
 		};
 		2A0A16061EB5BE07008C0480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35D9F3CA0523A37BB98BA0A /* Pods-taskappTry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GR6B8V7TH6;
@@ -439,6 +644,7 @@
 		};
 		2A0A16081EB5BE07008C0480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A49C658081067F2538B88D5 /* Pods-taskappTryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +660,7 @@
 		};
 		2A0A16091EB5BE07008C0480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22F38716F7A851DDB534AB4 /* Pods-taskappTryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +676,7 @@
 		};
 		2A0A160B1EB5BE07008C0480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F00F6A1FC1A1C75A1948A7 /* Pods-taskappTryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GR6B8V7TH6;
@@ -483,6 +691,7 @@
 		};
 		2A0A160C1EB5BE07008C0480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E41B8FD10D39C4BDDFCD405 /* Pods-taskappTryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GR6B8V7TH6;
@@ -514,6 +723,7 @@
 				2A0A16061EB5BE07008C0480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A0A16071EB5BE07008C0480 /* Build configuration list for PBXNativeTarget "taskappTryTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +732,7 @@
 				2A0A16091EB5BE07008C0480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A0A160A1EB5BE07008C0480 /* Build configuration list for PBXNativeTarget "taskappTryUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +741,7 @@
 				2A0A160C1EB5BE07008C0480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
